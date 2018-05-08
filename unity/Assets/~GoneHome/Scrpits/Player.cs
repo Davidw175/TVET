@@ -38,13 +38,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //transform.Translate(Vector3.forward * Time.deltaTime * Input.GetAxis("Vertical") * moveSpeed);
-        //transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal") * moveSpeed);
+        transform.Translate(Vector3.forward * Time.deltaTime * Input.GetAxis("Vertical") * moveSpeed);
+        transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal") * moveSpeed);
 
 
         if (Input.GetKey(KeyCode.W))
         {
-            rigid.AddForce(Vector3.forward * speed);
+            //rigid.AddForce(Vector3.forward * speed);
             //print(message);
             //num++;
         }
