@@ -82,11 +82,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Gun Sumo\Script\Jump.cs" />
-    <Compile Include="Assets\Gun Sumo\Script\Jump1.cs" />
-    <Compile Include="Assets\Gun Sumo\Script\KnockBack.cs" />
-    <Compile Include="Assets\Gun Sumo\Script\PlayerMovement1.cs" />
-    <Compile Include="Assets\Gun Sumo\Script\PlayerMovement2.cs" />
+    <Compile Include="Assets\Joust Sumo\Script\Jump.cs" />
+    <Compile Include="Assets\Joust Sumo\Script\Jump1.cs" />
+    <Compile Include="Assets\Joust Sumo\Script\KnockBack.cs" />
+    <Compile Include="Assets\Joust Sumo\Script\PlayerMovement1.cs" />
+    <Compile Include="Assets\Joust Sumo\Script\PlayerMovement2.cs" />
     <Compile Include="Assets\Minesweeper\Scripts\Grid.cs" />
     <Compile Include="Assets\Minesweeper\Scripts\Tile.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
